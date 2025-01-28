@@ -5,6 +5,9 @@
   text-align: none;
   list-style: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  outline: none;
+  border: none;
 }
 
 :root{
@@ -15,6 +18,17 @@
   --color-soft:#aaaaaa;
   --color-border:lightgray;
   --color-red:red;
+}
+
+.darkmode{
+  --text-color: white;
+  --color-bg:black;
+  --color-card:#111111;
+  
+}
+
+body{
+  overflow-x: hidden;
 }
 
 .container{
@@ -74,4 +88,11 @@ small,p{
 .btn-red{
   background: var(--color-red);
   color: white;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 20% 54% 23%;
+  gap: 3%;
+  width: 100%;
 }

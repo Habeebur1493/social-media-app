@@ -1,0 +1,7 @@
+.leftbar{
+    position: sticky;
+    top: 3.6rem;
+    background: var(--color-card);
+    height: calc(100vh -3.6rem);
+    overflow: auto;
+}
