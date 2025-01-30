@@ -1,0 +1,30 @@
+.message{
+    background: var(--color-card);
+    margin: 10px auto;
+    border-radius: 1rem;
+    padding: 10px 20px 5px 20px;
+}
+
+.message-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.message-search{
+    background: var(--color-bg);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-radius: 1rem;
+    padding: .7rem;
+    margin-bottom: 1rem;
+}
+
+.message-search input{
+    background: transparent;
+    color: var(--color-text);
+}
+
+

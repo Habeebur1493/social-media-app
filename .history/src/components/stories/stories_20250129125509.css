@@ -1,0 +1,23 @@
+.stories{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.story{
+    height: 170px;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+.story::after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(transparent,transparent);
+}

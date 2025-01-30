@@ -1,0 +1,13 @@
+.message{
+    background: var(--color-card);
+    margin: 20px 0;
+    border-radius: 1rem;
+    padding: 20px;
+}
+
+.message-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
