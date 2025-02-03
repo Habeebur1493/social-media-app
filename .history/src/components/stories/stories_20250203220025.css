@@ -19,7 +19,7 @@
     height: 100%;
     width: 100%;
     bottom: 0;
-    background: linear-gradient(transparent,transparent, blue);
+    background: linear-gradient(transparent,transparent, var(--color-primary));
 }
 .story .user{
     position: absolute;

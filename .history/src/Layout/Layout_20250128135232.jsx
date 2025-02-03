@@ -36,20 +36,12 @@ const Feed = () => {
 
     //Router..........
     const router = createBrowserRouter([
+        {
+            path : '/',
+            element : <Feed/>,
+            children: [
                 {
-                path : '/',
-                element : <Login/>,
-                },
-                {
-                    path : '/signup',
-                    element : <Signup/>
-                },
-                {
-                    path : '/Feed',
-                    element : <Feed/>
-                },
-                {
-                    path : '/Home',
+                    path : '/',
                     element :<Home/>
                 },
                 {
@@ -60,7 +52,19 @@ const Feed = () => {
                     path : '/chatbox/:id',
                     element :<Chatbox/>
                 },
+               ]
+        },
+
+        {
+            path : '/login',
+            element : <Login/>
+        },
+        {
+            path : '/signup',
+            element : <Signup/>
+        },
     ])
+
 
     return (
         <>
